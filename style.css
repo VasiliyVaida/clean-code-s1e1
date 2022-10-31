@@ -5,39 +5,39 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.todo__header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.todo__header img {
   width: 100%;
 }
-.aaa .more_inf {
+.todo__header .todo__header-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { 
+  .todo__header { 
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.todo__main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.todo__main-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.todo__main-taskWrapper {
   display: flex;
 }
 
@@ -136,13 +136,13 @@ li > input[type="text"] {
   width: 226px
 }
 
-button.delete img {
+button.todo__main-deleteBtn img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.todo__main-deleteBtn img:hover {
   transform: rotateZ(0);
 }
 
